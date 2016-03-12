@@ -1,0 +1,368 @@
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Arial;
+    src: url(arial.ttf);
+}
+
+@font-face {
+    font-family: Roboto Slab;
+    src: url(RobotoSlab-Regular.ttf);
+}
+
+
+/*************bg area************/
+
+.bg_area {
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo_header>h3 {
+    font-family: Arial;
+    font-size: 37.08px;
+    font-weight: bold;
+    color: #343434;
+}
+
+.logo_header>p {
+    font-family: Arial;
+    font-size: 27.67px;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.logo {
+    padding-bottom: 4px;
+}
+
+.pad_right {
+    padding-right: 0px;
+}
+
+.rect_img {
+    background-image: url("rectan.png");
+    background-size: 100% 100%;
+    padding: 12px;
+}
+
+.rect_img > p {
+    color: #fff;
+    font-family: Arial;
+    font-size: 18.8px;
+    font-weight: bold;
+    padding-left: 14%;
+    padding-top: 8px;
+}
+
+.logo_rectn_grp {
+    padding-right: 51px;
+}
+
+.logo_rectn {
+    padding-bottom: 13px;
+    position: relative;
+}
+
+.tick {
+    position: absolute;
+    right: -40px;
+    top: 3px;
+}
+
+.bg_left_area {
+    padding-top: 17px;
+}
+
+.bg_right_area {
+    padding: 17px 52px 17px 0;
+}
+
+.form_header {
+    background-image: url("bar.png");
+    background-size: 100% 100%;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+}
+
+.form_header img {
+    padding-right: 4%;
+}
+
+.form_header > h1 {
+    color: #fff;
+    font-family: arial;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: -8px;
+}
+
+.form_header > p {
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 7px;
+}
+
+.form_area {
+    background-color: #fff;
+}
+
+.form_txt > p {
+    color: #272c30;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form_grp {
+    padding: 0 13%;
+}
+
+.form5 {
+    text-align: center;
+}
+
+.form5 > input {
+    background-image: url("btn.png");
+    background-size: 100% 100%;
+    padding: 20px 143px;
+    border: 0;
+}
+
+.form_txt {
+    padding: 20px 9%;
+}
+
+.form-control {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    -webkit-transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+.form1,
+.form2,
+.form3,
+.form4 {
+    padding-bottom: 23px;
+}
+
+.form5 {
+    padding-bottom: 57px;
+}
+
+.form4 > .form-control {
+    height: 108px;
+}
+
+.form_area_pad {
+    padding-left: 4%;
+    padding-right: 18%;
+    position: absolute;
+    top: 139px;
+    z-index: 1;
+}
+
+.col-sm-6.width-right {
+    padding-left: 0;
+    width: 46%;
+}
+
+.col-sm-6.pad_right.width-left {
+    padding-bottom: 92px;
+    padding-left: 24px;
+    width: 54%;
+}
+
+.col-sm-12.psd_width {
+    padding: 0 42px;
+}
+
+.part_two {
+    padding-top: 70px;
+}
+
+.part_three {
+    padding-top: 50px;
+}
+
+
+/*************quote area**************/
+
+.quote {
+    background-image: url(quote2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.quote_txt > p {
+    color: #fad3d4;
+    font-family: arial;
+    font-size: 16px;
+}
+
+.quote_txt {
+    padding: 55px 116px 33px;
+}
+
+.quote_txt > p::before {
+    content: url("quote_el.png");
+    left: 74px;
+    position: absolute;
+    top: 29px;
+}
+
+.quote_txt > p::after {
+    content: url("quote_el2.png");
+    position: absolute;
+    right: 183px;
+    top: 222px;
+}
+
+
+/***********footer area*************/
+
+.part_one {
+    padding-top: 76px;
+}
+
+.part_one_txt > h4 {
+    color: #303492;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    padding-bottom: 16px;
+}
+
+.part_one_txt > p {
+    color: #444445;
+    font-family: arial;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.part_one_img > img {
+    padding-left: 4px;
+}
+
+.col-sm-9 {
+    padding-left: 0;
+}
+
+.img_pad {
+    padding-left: 3px;
+}
+
+.part_two_txt > h4 {
+    color: #303492;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    padding-bottom: 26px;
+}
+
+.part_two_txt > p {
+    color: #444445;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.col-sm-6 > p {
+    color: #444445;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.black_background {
+    background-color: #1E2429;
+}
+
+.part_four_header > h4 {
+    color: #fff2f2;
+    font-family: Roboto slab;
+    font-size: 22px;
+}
+
+.part_four_header > h4 span {
+    color: #ED1C25;
+}
+
+.part_four_img > img {
+    float: left;
+    padding-left: 34px;
+    padding-right: 35px;
+}
+
+.part_four {
+    padding: 22px;
+}
+
+.col-sm-12.side_pad {
+    padding: 56px 60px;
+}
+
+.part_five_txt > h4 {
+    font-family: arial;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ED1C25;
+}
+
+.part_five_txt > p {
+    color: #282b2c;
+    font-family: arial;
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.part_five_img > input {
+    background-image: url("btn2.png");
+    background-size: 100% 100%;
+    border: 0 none;
+    padding: 20px 141px;
+}
+
+.part_five_img > img {
+    padding-left: 38%;
+    padding-right: 45px;
+}
+
+.part_five_img {
+    padding-top: 60px;
+}
+
+.col-sm-12.sid_pad {
+    padding: 0 69px;
+}
+
+.copy > p {
+    color: #424647;
+    font-family: arial;
+    font-size: 12px;
+    padding-bottom: 35px;
+    padding-top: 63px;
+    text-align: center;
+}
