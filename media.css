@@ -333,8 +333,9 @@
     }
     .part_four_img > img {
         padding-left: 0;
-        padding-right: 5px;
+        padding-right: 0;
         padding-top: 0;
+        float: none;
     }
     .part_four_header > h4 {
         font-size: 14px;
@@ -368,5 +369,8 @@
     }
     .part_three {
         padding-top: 4px;
+    }
+    .part_four_img {
+        text-align: center;
     }
 }
