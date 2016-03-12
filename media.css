@@ -291,7 +291,7 @@
         font-size: 18px;
         padding-bottom: 16px;
         padding-left: 15px;
-        padding-top: 11px;
+        padding-top: 27px;
         text-align: center;
     }
     .part_one_txt > p {
@@ -362,5 +362,11 @@
         font-size: 10px;
         padding-bottom: 10px;
         padding-top: 31px;
+    }
+    .col-sm-12.sid_pad {
+        padding: 0 20px;
+    }
+    .part_three {
+        padding-top: 4px;
     }
 }
