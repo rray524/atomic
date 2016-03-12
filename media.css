@@ -218,11 +218,11 @@
         width: 100%;
     }
     .logo_header > h3 {
-        font-size: 15.08px;
+        font-size: 19.08px;
         text-align: center;
     }
     .logo_header > p {
-        font-size: 12.67px;
+        font-size: 14.67px;
         text-align: center;
     }
     .logo_rectn_grp {
@@ -242,10 +242,10 @@
         padding: 0 0 526px;
     }
     .form_header > h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
     .form_header > p {
-        font-size: 10px;
+        font-size: 14px;
     }
     .form_area_pad {
         left: 0;
